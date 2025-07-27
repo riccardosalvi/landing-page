@@ -117,6 +117,7 @@ ul {
     justify-content: center;
     align-items: center ;
     height: 300px;
+    margin-bottom: 24px;
 }
 
 .section-content1 {
@@ -168,4 +169,41 @@ ul {
 
 .text { 
     width: 100%;
+}
+
+/* SECTION QUOTE */
+
+.quote {
+    height: 400px;
+    width: 100%;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-content2 {
+    max-width: 1200px;
+    width: 100%;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.writing {
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: 500;
 }
