@@ -93,6 +93,11 @@ ul {
 .left-banner button {
     width: 120px;
     padding: 8px 16px;
+    background-color: #1f2937;
+    border-radius: 8px;
+    color: white;
+    border: 1px solid white;
+
 }
 
 .right-banner {
@@ -207,3 +212,66 @@ ul {
     font-size: 18px;
     font-weight: 500;
 }
+
+.signup {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    border: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    height: 150px;
+    width: 80%;
+    background-color: #1f2937;
+    border-radius: 25px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.call-header {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.call-text {
+    color: white;
+    font-size: 16px;
+}
+
+.signup-button {
+    width: 120px;
+    padding: 8px 16px;
+    background-color: #1f2937;
+    border-radius: 8px;
+    font-size: 14px;
+    color: white;
+    border: 1px solid white;;
+
+}
+
